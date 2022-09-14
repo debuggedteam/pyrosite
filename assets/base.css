@@ -82,6 +82,9 @@ body{font-family: Arial, Helvetica, sans-serif;}
     right: 9.3%;
 
 }
+.footer__content-bottom {
+    display: none;
+}
 .discord_btn{
     position: absolute;
     top: 80.7%;
