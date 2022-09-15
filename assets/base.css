@@ -64,12 +64,12 @@ body{font-family: Arial, Helvetica, sans-serif;}
 .insta_btn{
     position: absolute;
     top: 80.7%;
-    right: 33.5%;
+    right: 33.7%;
 }
 .twitter_btn{
     position: absolute;
     top: 80.7%;
-    right: 25.4%;
+    right: 25.5%;
 }
 .youtube1_btn{
     position: absolute;
@@ -79,7 +79,7 @@ body{font-family: Arial, Helvetica, sans-serif;}
 .youtube2_btn{
     position: absolute;
     top: 80.7%;
-    right: 9.3%;
+    right: 9.4%;
 
 }
 .footer__content-bottom {
@@ -119,9 +119,7 @@ body{font-family: Arial, Helvetica, sans-serif;}
   list-style: none;
 }
 .frame_outer {
-  display: flex;
-  justify-content: center;
-  padding: 60px 60px;
+   padding: 30px 60px;
 }
 .frame_inner .inline_img {
   display: none;
@@ -156,6 +154,13 @@ body{font-family: Arial, Helvetica, sans-serif;}
     font-size: 20px;
     color: #fff;
 }
+.frame_inner img {
+    background: #000;
+    border-radius: 21px;
+}
+
+
+/* ******************************** Responsive Start Here ******************************** */
 
 @media screen and (min-width: 767px) and (max-width: 1270px) {
     .container{
@@ -236,18 +241,18 @@ body{font-family: Arial, Helvetica, sans-serif;}
         right: 6.2%;
     }
     .discord_btn img {
-        width: 60%;
+        max-width: 37px;
     }
     .discord_btn {
         top: 69.2%;
-        right: -1.8%;
+        right: 1.3%;
     }
     .monitor_img img {
-        width: 60%;
+        max-width:170px;
     }
     .monitor_img {
-        top: 13.3%;
-        right: -11.6%;
+        top: 13%;
+    right: 21px;
     }
     .header {
        height: 258px;
@@ -259,7 +264,11 @@ body{font-family: Arial, Helvetica, sans-serif;}
         padding: 0;
     }
     .frame_text h5, .frame_text h4 {
-        font-size: 15px;}
+        font-size: 15px;
+    }
+        .frame_inner img {
+            border-radius: 11px;
+        }
 }
 
 
@@ -272,11 +281,11 @@ body{font-family: Arial, Helvetica, sans-serif;}
         margin:0 auto;
     }  
     .monitor_img img {
-        width: 26%;
+        max-width: 72px;
     }
     .monitor_img {
         top: 13.1%;
-        right: -60%;
+        right: 3%;
     }
     .home_btn img {
         width: 29%;
@@ -314,11 +323,11 @@ body{font-family: Arial, Helvetica, sans-serif;}
         right: 19.9%;
     }
     .twitter_btn img {
-        width: 26%;
+        max-width: 16px;
     }
     .twitter_btn {
         top: 65.9%;
-        right: 11.9%;
+    right: 25.7%;
     }
     .youtube1_btn img {
         width: 27%;
@@ -328,18 +337,18 @@ body{font-family: Arial, Helvetica, sans-serif;}
         right: 4%;
     }
     .youtube2_btn img {
-        width: 28%;
+        max-width: 18px;
     }
     .youtube2_btn {
-        top: 62.7%;
-        right: -4%;
+        top: 63.5%;
+    right: 29px;
     }
     .discord_btn img {
-        width: 28%;
+        max-width: 18px;
     }
     .discord_btn {
-        top: 62.7%;
-        right: -12.1%;
+        top: 63.7%;
+    right: 0.8%;
     }
     .cart_btn img {
         width: 28%;
@@ -369,4 +378,7 @@ body{font-family: Arial, Helvetica, sans-serif;}
     }
     .frame_text h4 {
        font-size:8px;}
+       .frame_inner img {
+         border-radius: 4px;
+    }
 }

@@ -30,17 +30,18 @@
 {% javascript %}
 
 jQuery( ".hover-function-btn" ).mouseover(function() {
-  var glichImageURL = jQuery('.main-gif-box').data('glich-image');
-  jQuery('.main-gif-box').attr('src', glichImageURL );
-   setTimeout(function () {             
-        var ImageURL = jQuery(this).data('image-url');
-        jQuery('.main-gif-box').attr('src', ImageURL );
+  var mainGif = jQuery('.main-gif-box');
+  var glichImageURL = mainGif.data('glich-image');
+  var ImageURL = jQuery(this).data('image-url');
+    mainGif.attr('src', glichImageURL );
+    setTimeout(function () {             
+        mainGif.attr('src', ImageURL );
     }, 250);
 });
 {% endjavascript %}
                 <div class="header">
                     <div class="left_monitor">
-                        <a href="#"><img src="{{ 'leftmonitor.gif' | asset_url }}"> 
+                        <a href="{{ shop.url }}"><img src="{{ 'leftmonitor.gif' | asset_url }}"> 
                         </a>
                     </div>
                     <div class="user_btn">
@@ -64,7 +65,7 @@ jQuery( ".hover-function-btn" ).mouseover(function() {
                         </a>
                     </div>
                     <div class="plicy_btn">
-                        <a href="#" data-image-url="{{ 'monitorYT2.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'policies_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorAbout.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'policies_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'policies_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
@@ -89,13 +90,13 @@ jQuery( ".hover-function-btn" ).mouseover(function() {
                         </a>
                     </div>
                     <div class="discord_btn">
-                        <a href="#" data-image-url="{{ 'monitorDiscord.gif' | asset_url }}"><img src="{{ 'discord_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorDiscord.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'discord_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'discord_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="monitor_img">
                         <a href="#">
-                          <img class="main-gif-box" data-glich-image="{{ 'monitorGlitch.gif' | asset_url }}" src="{{ 'monitorMain.gif' | asset_url }}">
+                          <img class="main-gif-box" data-glich-image="{{ 'monitorGlitch.png' | asset_url }}" src="{{ 'monitorMain.gif' | asset_url }}">
                         </a>
                     </div>
 
