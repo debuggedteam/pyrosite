@@ -39,7 +39,8 @@ body{font-family: Arial, Helvetica, sans-serif;}
     display:none;
 }
 .user_btn:hover .hover_img, .cart_btn:hover .hover_img, .home_btn:hover .hover_img, .faq_btn:hover .hover_img, .plicy_btn:hover .hover_img, .insta_btn:hover .hover_img, .twitter_btn:hover .hover_img, .youtube1_btn:hover .hover_img, .youtube2_btn:hover .hover_img, .discord_btn:hover .hover_img{
-    display:block;
+    display:inline-block;
+    vertical-align: top;
 }
 .cart_btn{
     position: absolute;
@@ -126,10 +127,10 @@ body{font-family: Arial, Helvetica, sans-serif;}
   /* min-height: 501px; */
 }
 .frame_inner:hover .inline_img + .frame_text {
-  bottom: 22px;
+  /* bottom: 22px; */
 }
 .frame_inner:hover .inline_img{
-    display: block;
+    display: inline-block;
 }
 .frame_inner:hover .block_img{
     display: none;
@@ -268,6 +269,8 @@ body{font-family: Arial, Helvetica, sans-serif;}
     }
         .frame_inner img {
             border-radius: 11px;
+            vertical-align: top;
+    display: inline-block;
         }
 }
 
