@@ -82,6 +82,9 @@ body{font-family: Arial, Helvetica, sans-serif;}
     right: 9.3%;
 
 }
+.footer__content-bottom {
+  display: none;
+}
 .discord_btn{
     position: absolute;
     top: 80.7%;
@@ -160,4 +163,210 @@ body{font-family: Arial, Helvetica, sans-serif;}
         padding:0 15px;
         margin:0 auto;
     }    
+    .left_monitor {
+        padding-left: 8%;
+        padding-top: 4%;
+    }
+    .left_monitor img {
+        width: 50%;
+    }
+    .user_btn {
+        top: 4%;
+        right: 42.6%;
+    }
+    .user_btn img {
+        width: 66%;
+    }
+    .cart_btn img {
+        width: 66%;
+    }
+    .cart_btn {
+        top: 10.7%;
+        right: 38.7%;
+    }
+    .home_btn {
+        top: 14.2%;
+        right: 27.2%;
+    }
+    .home_btn img {
+        width: 63%;
+    }
+    .faq_btn {
+        top: 32.9%;
+        right: 27.2%;
+    }
+    .faq_btn img {
+        width: 61%;
+    }
+    .plicy_btn img {
+        width: 61%;
+    }
+    .plicy_btn {
+        top: 50.9%;
+        right: 27.2%;
+    }
+    .insta_btn img {
+        width: 59%;
+    }
+    .insta_btn {
+        top: 69.6%;
+        right: 30.5%;
+    }
+    .twitter_btn img {
+    width: 60%;
+    }
+    .twitter_btn {
+        
+    top: 69.3%;
+
+        right: 22.3%;
+    }
+    .youtube1_btn img {
+        width: 60%;
+    }
+    .youtube1_btn {
+        top: 69.3%;
+        right: 14.3%;
+    }
+    .youtube2_btn img {
+        width: 60%;
+    }
+    .youtube2_btn {
+        top: 69.1%;
+        right: 6.2%;
+    }
+    .discord_btn img {
+        width: 60%;
+    }
+    .discord_btn {
+        top: 69.2%;
+        right: -1.8%;
+    }
+    .monitor_img img {
+        width: 60%;
+    }
+    .monitor_img {
+        top: 13.3%;
+        right: -11.6%;
+    }
+    .header {
+       height: 258px;
+    }
+    .frame_outer {
+        padding: 0px 60px;
+    }
+    .frame_outer slider-component.slider-mobile-gutter {
+        padding: 0;
+    }
+    .frame_text h5, .frame_text h4 {
+        font-size: 15px;}
+}
+
+
+
+
+@media screen and (max-width: 766px) {
+    .container{
+        max-width:330px;
+        padding:0 5px;
+        margin:0 auto;
+    }  
+    .monitor_img img {
+        width: 26%;
+    }
+    .monitor_img {
+        top: 13.1%;
+        right: -60%;
+    }
+    .home_btn img {
+        width: 29%;
+    }
+    .home_btn {
+        top: 11%;
+    right: 10.2%;
+    }
+    .faq_btn img {
+        width: 28%;
+    }
+    .faq_btn {
+        top: 28%;
+        right: 10.5%;
+    }
+    .user_btn img {
+        width: 25%;
+    }
+    .user_btn {
+        top: 1.6%;
+        right: 34.2%;
+    }
+    .plicy_btn img {
+        width: 26%;
+    }
+    .plicy_btn {
+        top: 45.1%;
+        right: 10.1%;
+    }
+    .insta_btn img {
+        width: 26%;
+    }
+    .insta_btn {
+        top: 65.7%;
+        right: 19.9%;
+    }
+    .twitter_btn img {
+        width: 26%;
+    }
+    .twitter_btn {
+        top: 65.9%;
+        right: 11.9%;
+    }
+    .youtube1_btn img {
+        width: 27%;
+    }
+    .youtube1_btn {
+        top: 62.7%;
+        right: 4%;
+    }
+    .youtube2_btn img {
+        width: 28%;
+    }
+    .youtube2_btn {
+        top: 62.7%;
+        right: -4%;
+    }
+    .discord_btn img {
+        width: 28%;
+    }
+    .discord_btn {
+        top: 62.7%;
+        right: -12.1%;
+    }
+    .cart_btn img {
+        width: 28%;
+    }
+    .cart_btn {
+        top: 9.9%;
+        right: 30.8%;
+    }
+    .left_monitor {
+        padding-left: 6%;
+        padding-top: 2.5%;
+    }
+    .header {
+        height: 118px;
+    }
+    .frame_outer {
+        padding: 0;
+    }
+    .frame_outer .collection {
+        padding: 0;
+    }
+    .frame_inner {
+        padding: 0 5px;
+    }
+    .frame_text h5 {
+     font-size: 10px;
+    }
+    .frame_text h4 {
+       font-size:8px;}
 }

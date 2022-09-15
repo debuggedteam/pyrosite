@@ -27,7 +27,17 @@
     }
   }
 {%- endstyle -%}
+{% javascript %}
 
+jQuery( ".hover-function-btn" ).mouseover(function() {
+  var glichImageURL = jQuery('.main-gif-box').data('glich-image');
+  jQuery('.main-gif-box').attr('src', glichImageURL );
+   setTimeout(function () {             
+        var ImageURL = jQuery(this).data('image-url');
+        jQuery('.main-gif-box').attr('src', ImageURL );
+    }, 250);
+});
+{% endjavascript %}
                 <div class="header">
                     <div class="left_monitor">
                         <a href="#"><img src="{{ 'leftmonitor.gif' | asset_url }}"> 
@@ -44,49 +54,49 @@
                         </a>
                     </div>
                     <div class="home_btn">
-                        <a href="#"><img src="{{ 'home_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorHome.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'home_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'home_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="faq_btn">
-                        <a href="#"><img src="{{ 'FAQ_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorFAQ.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'FAQ_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'FAQ_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="plicy_btn">
-                        <a href="#"><img src="{{ 'policies_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorYT2.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'policies_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'policies_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
-
-
                     <div class="insta_btn">
-                        <a href="#"><img src="{{ 'insta_dark.png ' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorInsta.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'insta_dark.png ' | asset_url }}" class="block_img">
                             <img src="{{ 'insta_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="twitter_btn">
-                        <a href="#"><img src="{{ 'twt_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorTwitter.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'twt_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'twt_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="youtube1_btn">
-                        <a href="#"><img src="{{ 'YT1_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorYT.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'YT1_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'YT_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="youtube2_btn">
-                        <a href="#"><img src="{{ 'YT2_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorYT2.gif' | asset_url }}" class="hover-function-btn"><img src="{{ 'YT2_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'YT2_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="discord_btn">
-                        <a href="#"><img src="{{ 'discord_dark.png' | asset_url }}" class="block_img">
+                        <a href="#" data-image-url="{{ 'monitorDiscord.gif' | asset_url }}"><img src="{{ 'discord_dark.png' | asset_url }}" class="block_img">
                             <img src="{{ 'discord_lit.png' | asset_url }}" class="hover_img">
                         </a>
                     </div>
                     <div class="monitor_img">
-                        <a href="#"><img src="{{ 'monitorMain.gif' | asset_url }}"></a>
+                        <a href="#">
+                          <img class="main-gif-box" data-glich-image="{{ 'monitorGlitch.gif' | asset_url }}" src="{{ 'monitorMain.gif' | asset_url }}">
+                        </a>
                     </div>
 
 
