@@ -421,4 +421,7 @@ body{
     .frame_inner {
         margin: 0 0 2px;
     }
+    .frame_text{
+        bottom: 7.5%;
+    }
 }
