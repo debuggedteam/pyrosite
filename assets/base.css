@@ -310,6 +310,7 @@ body{
         max-width:330px;
         padding:0 5px;
         margin:0 auto;
+        min-height: 100vh;
     }  
     .monitor_img img {
         max-width: 72px;
