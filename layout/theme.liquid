@@ -215,7 +215,9 @@
         }
       }
     {% endstyle %}
-
+{% if template.name != "index" %} 
+    {{ 'base-theme.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}

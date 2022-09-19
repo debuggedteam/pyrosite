@@ -235,6 +235,10 @@
           "label": "Facebook",
           "info": "https:\/\/facebook.com\/shopify"
         },
+        "social_discord_link": {
+          "label": "Discord",
+          "info": "https:\/\/discord.com\/shopify"
+        },
         "social_pinterest_link": {
           "label": "Pinterest",
           "info": "https:\/\/pinterest.com\/shopify"
@@ -257,6 +261,10 @@
         },
         "social_youtube_link": {
           "label": "YouTube",
+          "info": "https:\/\/www.youtube.com\/shopify"
+        },
+        "social_youtube2_link": {
+          "label": "YouTube2",
           "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
