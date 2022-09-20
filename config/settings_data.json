@@ -148,6 +148,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "484093e7-f7ef-4c3d-b60d-4c6da52d1678": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>Share contact information, store details, and brand cont<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "484093e7-f7ef-4c3d-b60d-4c6da52d1678"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
