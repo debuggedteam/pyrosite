@@ -185,7 +185,9 @@ body{
     background: #000;
     border-radius: 21px;
 }
-
+.footer-block p {
+    font-weight: 600;
+}
 
 /* ******************************** Responsive Start Here ******************************** */
 
